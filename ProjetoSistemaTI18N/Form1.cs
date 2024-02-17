@@ -30,17 +30,20 @@ namespace ProjetoSistemaTI18N
 
         private void consultar_Click(object sender, EventArgs e)
         {
-
+            Consultar con = new Consultar();//Conexão com o BD
+            con.ShowDialog();//Mostrar a tela
         }//fim do consultar
 
         private void atualizar_Click(object sender, EventArgs e)
         {
-
+            Atualizar atu = new Atualizar();
+            atu.ShowDialog();
         }//fim do atualizar
 
         private void excluir_Click(object sender, EventArgs e)
         {
-
+            Excluir ex = new Excluir();
+            ex.ShowDialog();
         }//fim do excluir
     }//fim da classe
 }//fim do projeto
